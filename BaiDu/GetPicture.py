@@ -108,7 +108,7 @@ def mkDir(dirName):
 
 def selectImg():
     # 这里路径换成你自己的
-    path = 'C:\\Users\\Administrator\\PycharmProjects\\self_spiderLearning\\results\\'
+    path = '/home/saic/mycode/python/Crawler/BaiDu/results/'
     for x in os.listdir(path):
         if x.endswith('.jpg'):
             # file是图像对象，并没有close（）方法
